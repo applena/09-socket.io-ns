@@ -28,10 +28,14 @@ exports a counter that keeps track of how many times it was called
 
 #### Running the app
 * `npm i`
-* Endpoint: `/numbers`
-  * increments a number.
-* Endpoint: `/letters`
-  * increments a letter alaphebetically.
+* to run the app:
+  * run `npm start`
+  * in a differnt terminal:
+    * run `node app.js`
+    * in a differnt terminal:
+      * run `node client.js`
+  * visit: (`https://pmww0ww42q.codesandbox.io/`) to watch the numnbers and letters increment. 
+
 
 #### Tests
 * `npm run test`

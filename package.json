@@ -13,7 +13,8 @@
   "scripts": {
     "lint": "eslint **/*.js",
     "test": "jest --coverage --verbose",
-    "test-watch": "jest --watchAll --coverage --verbose"
+    "test-watch": "jest --watchAll --coverage --verbose",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
